@@ -1,0 +1,23 @@
+{
+  "name": "facebook",
+  "version": "1.0.0",
+  "description": "Facebook Senza Aprire il browser",
+  "main": "index.js",
+  "author": "RyukSniper <ryuksniper2@gmail.com/>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://facebook.com",
+    "serviceName": "Facebook Page",
+    "message": "Facebook Senza Aprire il browser.",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
